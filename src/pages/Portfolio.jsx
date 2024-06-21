@@ -10,7 +10,7 @@ function portfolio() {
   return (
     <>
       <div id="portfolio-page">
-        <img src="https://img.freepik.com/free-photo/black-frame-with-copy-space-top-view_23-2148643791.jpg?w=1380&t=st=1718278392~exp=1718278992~hmac=ecfe97d692901d64e5ed27520c3069187d2ae3663a4e0fe086f6b678d3e62c77" alt="" />
+        <img src="../../public/frame.jpg" alt="" />
         <div className="intro">
           <div className="intro-text">
             <p>I'M  <span>Ankesh Patil
