@@ -10,7 +10,6 @@
 .skill-page{
     display: flex;
     height: auto;
-    width: 90%;
     justify-content: center;
     align-content: center;
     flex-direction: row;
