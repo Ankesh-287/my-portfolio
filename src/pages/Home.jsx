@@ -10,7 +10,7 @@ function Home() {
   return (
     <>
       <div id="portfolio-page">
-        <img src="../../public/frame.jpg" alt="" />
+        <img src="https://github.com/Ankesh-287/my-portfolio/blob/main/public/frame.jpg?raw=true" alt="" />
         <div className="intro">
           <div className="intro-text">
             <p>I'M  <span>Ankesh Patil
