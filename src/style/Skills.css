@@ -15,9 +15,6 @@
     flex-direction: row;
     margin: 30px;
     flex-wrap: wrap;
-    column-gap: 10px;
-    row-gap: 10px;
-    
 }
 .skill-card{
     display: flex;
@@ -26,8 +23,6 @@
     justify-content: center;
     color: white;
     background-color: var(--bg-secondary);
-    width: 16vw;
-    height: 18vw;
     border-radius: 15%;
     position: relative;
     margin: 10px;

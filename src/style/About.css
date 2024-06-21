@@ -21,18 +21,13 @@
 
 .about-page>p {
     position: relative;
-    margin-left: 100px;
-    font-size: 1.5vw;
+
 }
 
 .about-page>p::after {
     content: '';
     position: absolute;
-    width: 52px;
-    left: -61px;
-    height: 3px;
     background-color: yellow;
-    top : 14px;
 }
 .about-page > p > span {
     color: var(--bg-primary);

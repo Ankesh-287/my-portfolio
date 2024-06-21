@@ -32,9 +32,6 @@
     justify-content: center;
     color: var(--bg-primary);
     background-color: rgb(49 51 59);
-    height: 6vw;
-    width: 33vw;
-    font-size: 1.5vw;
     font-weight: 500;
     border-radius: 10px;
 }

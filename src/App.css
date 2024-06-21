@@ -35,6 +35,17 @@ body{
     .navlinks{
         font-size: 3vw;
     }
+    .intro>a>button {
+        width: 14vw;
+        height: 5vw;
+        font-size: 1.7vw;
+    }
+    #details{
+        height: 9vw;
+        width: 43vw;
+        letter-spacing: 1px;
+        font-size: 2vw;
+    }
     .contact-section >.heading {
         top: 1.5vh;
     }
@@ -49,7 +60,28 @@ body{
     }
     .skill-page {
         width: 93vw;
+        column-gap: 0px;
+        row-gap: 0px;
     }
+    .skill-card {
+        width: 18vw;
+        height: 21vw;
+    }
+    .lang-text {
+        font-size: 2.5vw;
+    }
+    .about-page>p {
+        margin-left: 6vw;
+        letter-spacing: 1px;
+        font-size: 2.2vw;
+    }
+    .about-page>p::after {
+        width: 22px;
+        left: -28px;
+        height: 2px;
+        top: 5px;
+    }
+
 }
 @media screen and (min-width :768px) {
     .nav{
@@ -60,6 +92,16 @@ body{
     }
     .navlinks{
         font-size: 2vw;
+    }
+    .intro>a>button {
+        width: 11vw;
+        height: 4vw;
+        font-size: 1.3vw;
+    }
+    #details{
+        height: 6vw;
+        width: 33vw;
+        font-size: 1.5vw;
     }
     .contact-section >.heading {
         top: -0.6vh;
@@ -74,7 +116,23 @@ body{
         bottom: 8px;
     }
     .skill-page {
-        width: 90%;
+        width: 89%;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+    .lang-text{
+        font-size: 2vw;
+    }
+    .about-page>p {
+        font-size: 1.5vw;
+        margin-left: 100px;
+        font-size: 1.5vw;
+    }
+    .about-page>p::after {
+        width: 52px;
+        left: -61px;
+        height: 3px;
+        top : 14px;
     }
 }
 @media screen and (min-width :1440px)  {
@@ -82,6 +140,16 @@ body{
         height: 8vw;
     }
     .navlinks{
+        font-size: 1.5vw;
+    }
+    .intro>a>button {
+        width: 11vw;
+        height: 4vw;
+        font-size: 1.3vw;
+    }
+    #details{
+        height: 6vw;
+        width: 33vw;
         font-size: 1.5vw;
     }
     .contact-section >.heading {
@@ -97,6 +165,26 @@ body{
         bottom: 19px;
     }
     .skill-page {
-        width: 90%;
+        width: 89%;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+    .skill-card{
+        width: 16vw;
+        height: 18vw;
+    }
+    .lang-text{
+        font-size: 2vw;
+    }
+    .about-page>p {
+        font-size: 1.5vw;
+        margin-left: 100px;
+        font-size: 1.5vw;
+    }
+    .about-page>p::after {
+        width: 52px;
+        left: -61px;
+        height: 3px;
+        top : 14px;
     }
 }

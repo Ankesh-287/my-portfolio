@@ -35,11 +35,8 @@
     background-color: transparent;
     border: 0.4vw solid var(--bg-primary);
     border-radius: 6px;
-    width: 11vw;
     margin-right: 15px;
-    height: 4vw;
     color: var(--bg-primary);
-    font-size: 1.3vw;
     font-family: var(--primary-font);
 }
 
