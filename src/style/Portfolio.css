@@ -1,0 +1,50 @@
+#portfolio-page{
+    width: 100vw;
+    height: 60vw;
+}
+#portfolio-page>img {
+    width: 100vw;
+    height: 60vw;
+    background-color: var(--bg-main);
+    position: absolute;
+}
+
+.intro {
+    position: relative;
+    color: white;
+    margin-left: 10vw;
+    top: 20vw;
+}
+
+.intro-text{
+    margin-bottom: 2vw;
+}
+
+.intro-text>p {
+    margin: 0;
+    font-size: 2.4vw;
+}
+
+.intro-text>p>span {
+    margin-left: 1.7vw;
+    color: var(--bg-primary);
+    font-size: 5vw;
+}
+
+.intro>a>button{
+    background-color: transparent;
+    border: 0.4vw solid var(--bg-primary);
+    border-radius: 6px;
+    width: 11vw;
+    margin-right: 15px;
+    height: 4vw;
+    color: var(--bg-primary);
+    font-size: 1.3vw;
+    font-family: var(--primary-font);
+}
+
+.intro>a>button:hover {
+    transition: 0.6s;
+    background-color: var(--bg-primary);
+    color: black;
+}

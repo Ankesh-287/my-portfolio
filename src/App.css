@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+body{
+    overflow-x: hidden;
+}
+:root {
+    --bg-main: rgb(52 53 58);
+    --bg-primary: yellow;
+    --bg-secondary: rgb(61 62 66);
+    --heading: rgb(255, 255, 255);
+    --main-font: "Libre Baskerville", serif;
+    --primary-font: "Hind Siliguri", sans-serif;
+}
+body{
+    background-color: var(--bg-main);
+}
+
+.heading{
+    font-size: 3.8vw;
+    font-family: var(--main-font);
+    color: var(--heading);
+}
+
+@media screen and (min-width :320px) {
+    .nav{
+        height: 12vw;
+    }
+    .nav-menu{
+        width: 50%;
+    }
+    .navlinks{
+        font-size: 3vw;
+    }
+    .contact-section >.heading {
+        top: 1.5vh;
+    }
+    .icon-box{
+        bottom: 5.8vw;
+    }
+    .box1{
+        top: 23px;
+    }
+    .box2{
+        bottom: 4.9px;
+    }
+}
+@media screen and (min-width :768px) {
+    .nav{
+        height: 9vw;
+    }
+    .nav-menu{
+        width: 40%;
+    }
+    .navlinks{
+        font-size: 2vw;
+    }
+    .contact-section >.heading {
+        top: -0.6vh;
+    }
+    .icon-box{
+        bottom: 2.7vw;
+    }
+    .box1{
+        top: 23px;
+    }
+    .box2{
+        bottom: 8px;
+    }
+}
+@media screen and (min-width :1440px)  {
+    .nav{
+        height: 8vw;
+    }
+    .navlinks{
+        font-size: 1.5vw;
+    }
+    .contact-section >.heading {
+        top: -5vh;
+    }
+    .icon-box{
+        bottom: 0.6vw;
+    }
+    .box1{
+        top: 24px;
+    }
+    .box2{
+        bottom: 19px;
+    }
+}

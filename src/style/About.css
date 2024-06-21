@@ -1,0 +1,39 @@
+.about-section {
+    width: 100vw;
+    height: 60vw;
+    background-color: var(--bg-main);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.about-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 300px;
+    color: white;
+    width: 80%;
+    font-size: large;
+    font-family: var(--primary-font);
+}
+
+.about-page>p {
+    position: relative;
+    margin-left: 100px;
+    font-size: 1.5vw;
+}
+
+.about-page>p::after {
+    content: '';
+    position: absolute;
+    width: 52px;
+    left: -61px;
+    height: 3px;
+    background-color: yellow;
+    top : 14px;
+}
+.about-page > p > span {
+    color: var(--bg-primary);
+}
