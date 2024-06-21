@@ -69,6 +69,9 @@ body{
     .box2{
         bottom: 8px;
     }
+    .skill-page {
+        width: 90%;
+    }
 }
 @media screen and (min-width :1440px)  {
     .nav{
@@ -88,5 +91,8 @@ body{
     }
     .box2{
         bottom: 19px;
+    }
+    .skill-page {
+        width: 90%;
     }
 }
