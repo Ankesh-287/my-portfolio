@@ -21,8 +21,8 @@
     },
     {
         "name": "Password Generator",
-        "image": "https://github.com/Ankesh-287/my-portfolio/blob/main/public/background.png?raw=true",
-        "link": "https://bg-changer-peach-eight.vercel.app/"
+        "image": "https://github.com/Ankesh-287/my-portfolio/blob/main/public/pass.png?raw=true",
+        "link": "https://pass-generator-zeta.vercel.app/"
     },
     {
         "name": "Background Changer",
