@@ -43,6 +43,7 @@
 }
 #details > p > a {
     color: var(--main-font);
+    text-decoration: none;
 }
 .contact-section >.heading{
     padding: 0px 30px 0px 30px;
