@@ -56,13 +56,14 @@
     align-items: center;
     justify-content: space-evenly;
     left: 38%;
+    bottom: 3vw;
     background-color: transparent;
     width: 26vw;
     height: 3vw;
     color: white;
     z-index: 3;
 }
-.icon-box> .icons{
+.icon-box > a > .icons{
     width: 3vw;
     height: 4vw;
     color: white;
@@ -74,12 +75,6 @@
     height: 10px;
     position: absolute;
     background-color: var(--bg-main);
-}
-.box2{
-    width: 30vw;
-    height: 10px;
-    position: absolute;
-    background-color: var(--bg-secondary);
 }
 
 .thanks-section{

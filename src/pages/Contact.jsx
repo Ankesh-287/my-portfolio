@@ -5,6 +5,7 @@ import { MdOutlineMail, } from "react-icons/md";
 import { BsWhatsapp, } from "react-icons/bs";
 import { FaLinkedinIn, FaFacebook } from "react-icons/fa";
 import { SlSocialInstagram } from "react-icons/sl";
+import { SiGithub } from "react-icons/si";
 
 import Heading from '../components/Heading'
 
@@ -36,11 +37,21 @@ function Contact() {
         </div>
         <div className="contact2">
           <div className="icon-box">
-            <BsWhatsapp className='icons' />
-            <FaLinkedinIn className='icons' />
-            <SlSocialInstagram className='icons' />
-            <FaFacebook className='icons' />
-            <div className="box2"></div>
+            <a href="https://wa.me/+919978432611">
+              <BsWhatsapp className='icons' />
+            </a>
+            <a href="https://www.linkedin.com/in/ankesh-patil-a093bb184/">
+              <FaLinkedinIn className='icons' />
+            </a>
+            <a href="https://github.com/Ankesh-287">
+              <SiGithub className='icons' />
+            </a>
+            <a href="https://www.instagram.com/_ankesh_patil/">
+              <SlSocialInstagram className='icons' />
+            </a>
+            <a href="https://www.facebook.com/ankesh.patil.9212/?_rdr">
+              <FaFacebook className='icons' />
+            </a>
           </div>
         </div>
       </div>
