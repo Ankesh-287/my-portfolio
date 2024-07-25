@@ -28,10 +28,10 @@ function Project() {
                             <p className="lang-text">Todo</p>
                         </div>
                     </NavLink>
-                    <NavLink to="/project">
+                    <NavLink to="https://bg-changer-peach-eight.vercel.app/">
                         <div className="project-card">
-                            <img src="https://github.com/Ankesh-287/my-portfolio/blob/main/public/todo.png?raw=true" alt="react" />
-                            <p className="lang-text">Currency Converter</p>
+                            <img src="https://github.com/Ankesh-287/my-portfolio/blob/main/public/background.png?raw=true" alt="react" />
+                            <p className="lang-text">Background Changer</p>
                         </div>
                     </NavLink>
                 </div>
