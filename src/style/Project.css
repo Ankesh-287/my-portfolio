@@ -1,0 +1,56 @@
+.project-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-main);
+    width: 100vw;
+    height: 60vw;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    position: relative;
+}
+.project-section > a > .see{
+    position: absolute;
+    right: 5vw;
+    top: -6vw;
+    background-color: var(--bg-secondary);
+    color: white;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+}
+.project-page{
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    width: 80vw;
+    margin: 30px;
+}
+
+.project-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* background-color: var(--bg-secondary); */
+    border-radius: 15%;
+    position: relative;
+    margin: 10px;
+    transition: 0.3s;
+}
+.project-card:hover{
+    transform: scale(1.05);
+    /* background-color: var(--bg-primary); */
+    /* color: black; */
+}
+.project-card > img {
+    width: 100%;
+}
+.lang-text{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 2vw;
+}

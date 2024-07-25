@@ -8,6 +8,7 @@
     height: 60vw;
 }
 .skill-page{
+    position: relative;
     display: flex;
     height: auto;
     justify-content: center;

@@ -6,6 +6,7 @@ import Portfolio from './pages/Portfolio.jsx';
 import Home from './pages/Home.jsx';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Project from './pages/Project.jsx';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/project" element={<Project />} />
           </Routes>
         </BrowserRouter>
      </>

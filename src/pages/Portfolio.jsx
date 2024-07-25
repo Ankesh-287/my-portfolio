@@ -5,6 +5,7 @@ import About from './About'
 import Skills from '../components/Skills.jsx'
 import Contact from './Contact.jsx'
 import Thanks from '../components/Thanks.jsx'
+import Project from './Project.jsx';
 
 function portfolio() {
   return (
@@ -25,6 +26,7 @@ function portfolio() {
       </div>
       <About />
       <Skills />
+      <Project />
       <Contact />
       <Thanks />
     </>
