@@ -57,12 +57,11 @@
     align-items: center;
     justify-content: space-evenly;
     left: 38%;
-    bottom: 3vw;
+    /* bottom: 3vw; */
     background-color: transparent;
     width: 26vw;
     height: 3vw;
     color: white;
-    z-index: 3;
 }
 .icon-box > a > .icons{
     width: 3vw;
@@ -85,6 +84,6 @@
     color: var(--bg-primary);
     font-family: var(--main-font);
     background-color: var(--bg-main);
-    font-size: 1.2vw;
+    font-size: 3.2vw;
     height: 20vw;
 }

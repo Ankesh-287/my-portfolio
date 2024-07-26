@@ -5,12 +5,12 @@ import { NavLink } from 'react-router-dom'
 import project from "../data/data.json"
 
 function Project() {
-    
+
   const [limit, setLimit] = useState(4)
 
   const handleData = () => {
     if (limit === 4) {
-      setLimit(project.length) 
+      setLimit(project.length)
     } else {
       setLimit(4)
     }
@@ -19,13 +19,14 @@ function Project() {
   return (
     <>
       <div className="project-section">
-        <Heading title="My Projects" />\
-        <NavLink to='/project'>
-          <div className="see" onClick={handleData}>
-            {limit === 4 ? 'See more...' : 'See less...'}
-          </div>
-        </NavLink>
-
+        <div className="ph">
+          <Heading title="My Projects" />
+          <NavLink to='/project'>
+            <div className="see" onClick={handleData}>
+              {limit === 4 ? 'See more...' : 'See less...'}
+            </div>
+          </NavLink>
+        </div>
         <div className="project-page">
           {project.slice(0, limit).map((data) => (
             <NavLink to={data.link} key={data.index}>
