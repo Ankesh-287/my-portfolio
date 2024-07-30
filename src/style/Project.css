@@ -26,11 +26,8 @@
 }
 .project-page{
     display: grid;
-    column-gap: 20px;
-    row-gap: 20px;
     grid-template-columns: 1fr 1fr;
     width: 90vw;
-    margin-top: 5rem;
     overflow: scroll;
 }
 .project-page::-webkit-scrollbar {
@@ -47,7 +44,6 @@
     justify-content: center;
     color: white;
     background-color: var(--bg-secondary);
-    border-radius: 15px;
     position: relative;
     margin: 10px;
     transition: 0.3s;
@@ -60,7 +56,6 @@
 .project-card > img {
     width: 100%;
     height: 20vw;
-    border-radius: 15px 15px 0px 0px;
 }
 .lang-text{
     font-family: var(--primary-font);

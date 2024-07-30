@@ -59,7 +59,7 @@ body{
         bottom: 4.9px;
     }
     .skill-page {
-        width: 93vw;
+        width: 100vw;
         column-gap: 0px;
         row-gap: 0px;
     }
@@ -83,7 +83,12 @@ body{
     }
     .contact-section>.heading {
         top: 18px;
-    }  
+    }
+    .project-page {
+        margin-top: 1rem;  
+        column-gap: 5px;
+        row-gap: 5px;
+    }
 
 }
 @media screen and (min-width :768px) {
@@ -139,7 +144,12 @@ body{
     }
     .contact-section>.heading {
         top: 0px;
-    }  
+    } 
+    .project-page {
+        margin-top: 3rem;  
+        column-gap: 10px;
+        row-gap: 10px;
+    } 
 }
 @media screen and (min-width :1440px)  {
     .nav{
@@ -196,4 +206,9 @@ body{
     .contact-section>.heading {
         top: -25px;
     } 
+    .project-page {
+        margin-top: 5rem;  
+        column-gap: 20px;
+        row-gap: 20px;
+    }
 }
