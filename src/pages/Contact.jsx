@@ -13,8 +13,7 @@ function Contact() {
   return (
     <>
       <div className="contact-section">
-        <div className="box1"></div>
-        <Heading title="Contact Me" id='contact-style' />
+        <Heading id='contact-style' title="Contact Me"  />
         <div className="contact-page">
           <div id="details">
             <MdOutlineMail className='icons' />

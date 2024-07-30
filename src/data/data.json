@@ -3,19 +3,19 @@
         "id": "101",
         "name": "Portfolio",
         "image": "https://github.com/Ankesh-287/my-portfolio/blob/main/public/portfolio.png?raw=true",
-        "link": "https://my-portfolio-ankesh-287s-projects.vercel.app/"
+        "link": ""
     },
     {
         "id": "102",
         "name": "Calculator",
         "image": "https://github.com/Ankesh-287/my-portfolio/blob/main/public/calculator.png?raw=true",
-        "link": "https://ankesh-287.github.io/Calculator.github.io/"
+        "link": ""
     },
     {
         "id": "103",
         "name": "Todo List",
         "image": "https://github.com/Ankesh-287/my-portfolio/blob/main/public/todo.png?raw=true",
-        "link": "https://ankesh-287.github.io/ToDoList/"
+        "link": ""
     },
     {
         "id": "104",

@@ -20,6 +20,10 @@
     padding: 8px 10px 8px 10px;
     font-size: 2vw;
 }
+.ph > .heading {
+    color: yellow;
+    background-color: transparent;
+}
 .project-page{
     display: grid;
     column-gap: 20px;

@@ -50,7 +50,7 @@ body{
         top: 1.5vh;
     }
     .icon-box{
-        bottom: 11vw;
+        bottom: 5vw;
     }
     .box1{
         top: 23px;
@@ -81,6 +81,9 @@ body{
         height: 2px;
         top: 5px;
     }
+    .contact-section>.heading {
+        top: 18px;
+    }  
 
 }
 @media screen and (min-width :768px) {
@@ -107,7 +110,7 @@ body{
         top: -0.6vh;
     }
     .icon-box{
-        bottom: 5vw;
+        bottom: 2vw;
     }
     .box1{
         top: 23px;
@@ -134,6 +137,9 @@ body{
         height: 3px;
         top : 14px;
     }
+    .contact-section>.heading {
+        top: 0px;
+    }  
 }
 @media screen and (min-width :1440px)  {
     .nav{
@@ -156,7 +162,7 @@ body{
         top: -5vh;
     }
     .icon-box{
-        bottom: 3vw;
+        bottom: 0vw;
     }
     .box1{
         top: 24px;
@@ -187,4 +193,7 @@ body{
         height: 3px;
         top : 14px;
     }
+    .contact-section>.heading {
+        top: -25px;
+    } 
 }

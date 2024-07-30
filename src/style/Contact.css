@@ -17,13 +17,34 @@
     justify-content: center;
     align-content: center;
     flex-direction: row;
-    border: 3px solid var(--bg-primary);
-    border-right: 0;
-    border-left: 0;
     margin: 30px;
     flex-wrap: wrap;
     column-gap: 10px;
     row-gap: 20px;
+}
+
+.contact-section>.heading {
+    position: absolute;
+    font-size: 5vw;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* top: -25px; */
+}
+
+.contact-section>.heading::after{
+    flex: 1;
+    content: '';
+    padding: 1px;
+    background-color: yellow;
+    margin: 10px 0px 10px 25px;
+}
+.contact-section>.heading::before {
+    flex: 1;
+    content: '';
+    padding: 1px;
+    background-color: yellow;
+    margin: 10px 25px 10px 0px;
 }
 
 #details {
@@ -35,49 +56,52 @@
     font-weight: 500;
     border-radius: 10px;
 }
-#details > .icons {
+
+#details>.icons {
     width: 3vw;
     height: 3vw;
     margin-right: 15px;
     color: white;
 }
-#details > p > a {
+
+#details>p>a {
     color: var(--main-font);
     text-decoration: none;
 }
-.contact-section >.heading{
-    padding: 0px 30px 0px 30px;
-    position: absolute;
-    color: yellow;
-    background-color: transparent;
-}
-.icon-box{
+
+.icon-box {
     position: absolute;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    left: 38%;
-    /* bottom: 3vw; */
+    justify-content: space-around;
     background-color: transparent;
-    width: 26vw;
-    height: 3vw;
+    width: 100%;
     color: white;
+    left: 0;
+    gap: 30px;
 }
-.icon-box > a > .icons{
+.icon-box::after {
+    flex: 1;
+    content: '';
+    padding: 1px;
+    background-color: yellow;
+    margin: 10px 0px 10px 0px;
+}
+.icon-box::before {
+    flex: 1;
+    content: '';
+    padding: 1px;
+    background-color: yellow;
+    margin: 10px 0px 10px 0px;
+}
+
+.icon-box>a>.icons {
     width: 3vw;
     height: 4vw;
     color: white;
     z-index: 3;
 }
-
-.box1{
-    width: 30vw;
-    height: 10px;
-    position: absolute;
-    background-color: var(--bg-main);
-}
-
-.thanks-section{
+.thanks-section {
     display: flex;
     align-items: center;
     justify-content: center;
