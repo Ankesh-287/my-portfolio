@@ -28,8 +28,8 @@ function Project() {
           </NavLink>
         </div>
         <div className="project-page">
-          {project.slice(0, limit).map((data) => (
-            <NavLink to={data.link} key={data.index}>
+          {project.slice(0, limit).map((data, id) => (
+            <NavLink to={data.link} key={id} target='_blank'>
               <div className="project-card">
                 <img src={data.image} alt={data.name} />
                 <p className="lang-text">{data.name}</p>

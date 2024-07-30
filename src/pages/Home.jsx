@@ -11,7 +11,7 @@ function Home() {
   return (
     <>
       <div id="portfolio-page">
-        <img src="https://github.com/Ankesh-287/my-portfolio/blob/main/public/frame.jpg?raw=true" alt="" />
+        <img src="https://github.com/Ankesh-287/my-portfolio/blob/main/public/frame.png?raw=true" alt="" />
         <div className="intro">
           <div className="intro-text">
             <p>I'M  <span>Ankesh Patil
