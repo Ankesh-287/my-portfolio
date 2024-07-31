@@ -12,6 +12,7 @@ body{
     --primary-font: "Hind Siliguri", sans-serif;
 }
 body{
+    background-attachment: fixed;
     background-color: var(--bg-main);
     display: flex;
     flex-direction: row;

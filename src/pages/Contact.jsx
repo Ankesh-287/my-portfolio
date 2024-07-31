@@ -37,19 +37,19 @@ function Contact() {
         <div className="contact2">
           <div className="icon-box">
             <a href="https://wa.me/+919978432611">
-              <BsWhatsapp className='icons' />
+              <BsWhatsapp className='icons w' />
             </a>
             <a href="https://www.linkedin.com/in/ankesh-patil-a093bb184/">
-              <FaLinkedinIn className='icons' />
+              <FaLinkedinIn className='icons l' />
             </a>
             <a href="https://github.com/Ankesh-287">
-              <SiGithub className='icons' />
+              <SiGithub className='icons g' />
             </a>
             <a href="https://www.instagram.com/_ankesh_patil/">
-              <SlSocialInstagram className='icons' />
+              <SlSocialInstagram className='icons i' />
             </a>
             <a href="https://www.facebook.com/ankesh.patil.9212/?_rdr">
-              <FaFacebook className='icons' />
+              <FaFacebook className='icons f' />
             </a>
           </div>
         </div>

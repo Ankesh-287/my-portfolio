@@ -23,22 +23,26 @@
     row-gap: 20px;
 }
 
+.contact-page:hover {
+    color: rgb(49 51 59);
+}
+
 .contact-section>.heading {
     position: absolute;
     font-size: 5vw;
     display: flex;
     align-items: center;
     width: 100%;
-    /* top: -25px; */
 }
 
-.contact-section>.heading::after{
+.contact-section>.heading::after {
     flex: 1;
     content: '';
     padding: 1px;
     background-color: yellow;
     margin: 10px 0px 10px 25px;
 }
+
 .contact-section>.heading::before {
     flex: 1;
     content: '';
@@ -51,17 +55,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--bg-primary);
+    color: white;
     background-color: rgb(49 51 59);
     font-weight: 500;
     border-radius: 10px;
+    transition: all 0.3s;
+    fill: white;
+}
+
+#details:hover {
+    background-color: var(--bg-primary);
+    color: rgb(49 51 59);
 }
 
 #details>.icons {
     width: 3vw;
     height: 3vw;
     margin-right: 15px;
-    color: white;
 }
 
 #details>p>a {
@@ -80,6 +90,7 @@
     left: 0;
     gap: 30px;
 }
+
 .icon-box::after {
     flex: 1;
     content: '';
@@ -87,6 +98,7 @@
     background-color: yellow;
     margin: 10px 0px 10px 0px;
 }
+
 .icon-box::before {
     flex: 1;
     content: '';
@@ -100,7 +112,39 @@
     height: 4vw;
     color: white;
     z-index: 3;
+    transform: scale(1);
+    transition: all 0.3s, color 0.3s;
 }
+
+.icon-box>a>.icons:hover {
+    transform: scale(1.2);
+
+}
+
+a>.w:hover {
+    color: green;
+}
+
+a>.l:hover {
+    color: rgb(0 65 130);
+}
+
+a>.g:hover {
+    color: black;
+}
+
+a>.i:hover {
+    color: transparent;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    /* -webkit-background-clip: text; */
+    -webkit-text-fill-color: transparent;
+}
+
+a>.f:hover {
+    color: rgb(8 102 255);
+}
+
+
 .thanks-section {
     display: flex;
     align-items: center;
