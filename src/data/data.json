@@ -1,38 +1,44 @@
 [
     {
         "id": "101",
+        "name": "LinkedIN Clone",
+        "image": "https://github.com/Ankesh-287/my-portfolio/blob/main/public/currency.png?raw=true",
+        "link": "https://linked-in-clone-git-main-ankesh-287s-projects.vercel.app/"
+    },
+    {
+        "id": "102",
         "name": "Portfolio",
         "image": "https://github.com/Ankesh-287/my-portfolio/blob/main/public/portfolio.png?raw=true",
         "link": "https://my-portfolio-ankesh-287s-projects.vercel.app/"
     },
     {
-        "id": "102",
+        "id": "103",
         "name": "Calculator",
         "image": "https://github.com/Ankesh-287/my-portfolio/blob/main/public/calculator.png?raw=true",
         "link": "https://ankesh-287.github.io/Calculator.github.io/"
     },
     {
-        "id": "103",
+        "id": "104",
         "name": "Todo List",
         "image": "https://github.com/Ankesh-287/my-portfolio/blob/main/public/todo.png?raw=true",
         "link": "https://ankesh-287.github.io/ToDoList/"
     },
     {
-        "id": "104",
+        "id": "105",
         "name": "Background Changer",
         "image": "https://github.com/Ankesh-287/my-portfolio/blob/main/public/background.png?raw=true",
         "link": "https://bg-changer-peach-eight.vercel.app/"
     },
     {
-        "id": "104",
+        "id": "106",
         "name": "Password Generator",
         "image": "https://github.com/Ankesh-287/my-portfolio/blob/main/public/pass.png?raw=true",
         "link": "https://pass-generator-zeta.vercel.app/"
     },
     {
-        "id": "105",
+        "id": "107",
         "name": "Currency Converter",
         "image": "https://github.com/Ankesh-287/my-portfolio/blob/main/public/currency.png?raw=true",
         "link": "https://currency-converter-red-seven.vercel.app/"
-    }
+    }  
 ]
