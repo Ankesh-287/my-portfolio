@@ -9,16 +9,20 @@ function Skills(props) {
                 <Heading title="My Skills" />
                 <div className="skill-page">
                     <div className="skill-card">
-                        <img src="https://cdn.iconscout.com/icon/free/png-256/free-react-1-282599.png?f=webp" alt="react" />
-                        <p className="lang-text">React</p>
+                        <img src="https://www.shareicon.net/download/2016/07/10/119874_apps_512x512.png" alt="react" />
+                        <p className="lang-text">React JS</p>
                     </div>
                     <div className="skill-card">
-                        <img src="https://icons.veryicon.com/png/System/Plex/Other%20html%205.png" alt="html" />
-                        <p className="lang-text">HTML</p>
+                        <img src="https://images-cdn.openxcell.com/wp-content/uploads/2024/07/24154156/dango-inner-2.webp" alt="react" />
+                        <p className="lang-text">NextJS</p>
                     </div>
                     <div className="skill-card">
-                        <img src="https://icons.veryicon.com/png/o/file-type/file-type-icon-library/css-29.png" alt="css" />
-                        <p className="lang-text">CSS</p>
+                        <img src="https://user-images.githubusercontent.com/11978772/40430921-73d53922-5e63-11e8-8dcd-1662136c3212.png" alt="php" />
+                        <p className="lang-text">Mongodb</p>
+                    </div>
+                    <div className="skill-card">
+                        <img src="https://mui.com/static/logo.png" alt="php" />
+                        <p className="lang-text">Material UI</p>
                     </div>
                     <div className="skill-card">
                         <img src="https://icons.veryicon.com/png/o/file-type/file-type-icon-library/js-10.png" alt="javascript" />
@@ -33,8 +37,12 @@ function Skills(props) {
                         <p className="lang-text">Php</p>
                     </div>
                     <div className="skill-card">
-                        <img src="https://user-images.githubusercontent.com/11978772/40430921-73d53922-5e63-11e8-8dcd-1662136c3212.png" alt="php" />
-                        <p className="lang-text">Mongodb</p>
+                        <img src="https://icons.veryicon.com/png/System/Plex/Other%20html%205.png" alt="html" />
+                        <p className="lang-text">HTML</p>
+                    </div>
+                    <div className="skill-card">
+                        <img src="https://icons.veryicon.com/png/o/file-type/file-type-icon-library/css-29.png" alt="css" />
+                        <p className="lang-text">CSS</p>
                     </div>
                 </div>
             </div>
