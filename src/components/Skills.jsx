@@ -13,8 +13,12 @@ function Skills(props) {
                         <p className="lang-text">React JS</p>
                     </div>
                     <div className="skill-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXjckwvuYvbgBisgfgOtpRYaD71l8gg8-dQ&s" alt="react" />
+                        <p className="lang-text">Next JS</p>
+                    </div>
+                    <div className="skill-card">
                         <img src="https://images-cdn.openxcell.com/wp-content/uploads/2024/07/24154156/dango-inner-2.webp" alt="react" />
-                        <p className="lang-text">NextJS</p>
+                        <p className="lang-text">Node JS</p>
                     </div>
                     <div className="skill-card">
                         <img src="https://user-images.githubusercontent.com/11978772/40430921-73d53922-5e63-11e8-8dcd-1662136c3212.png" alt="php" />
@@ -31,10 +35,6 @@ function Skills(props) {
                     <div className="skill-card">
                         <img src="https://pngimg.com/d/mysql_PNG29.png" alt="MySql" />
                         <p className="lang-text">MySql</p>
-                    </div>
-                    <div className="skill-card">
-                        <img src="https://www.mangoitsolutions.com/wp-content/uploads/2020/09/php.png" alt="php" />
-                        <p className="lang-text">Php</p>
                     </div>
                     <div className="skill-card">
                         <img src="https://icons.veryicon.com/png/System/Plex/Other%20html%205.png" alt="html" />
