@@ -13,11 +13,11 @@ function Skills(props) {
                         <p className="lang-text">React JS</p>
                     </div>
                     <div className="skill-card">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrXjckwvuYvbgBisgfgOtpRYaD71l8gg8-dQ&s" alt="react" />
+                        <img src="https://images-cdn.openxcell.com/wp-content/uploads/2024/07/24154156/dango-inner-2.webp" alt="react" />
                         <p className="lang-text">Next JS</p>
                     </div>
                     <div className="skill-card">
-                        <img src="https://images-cdn.openxcell.com/wp-content/uploads/2024/07/24154156/dango-inner-2.webp" alt="react" />
+                        <img src="https://cdn.iconscout.com/icon/free/png-256/free-node-js-logo-icon-download-in-svg-png-gif-file-formats--nodejs-programming-language-pack-logos-icons-1174925.png" alt="react" />
                         <p className="lang-text">Node JS</p>
                     </div>
                     <div className="skill-card">
